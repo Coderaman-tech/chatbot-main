@@ -7,7 +7,7 @@ from keybert import KeyBERT
 import os
 from dotenv import load_dotenv
 
-dotenv_path = join(dirname(__file__), "myapp.env")
+dotenv_path = join(dirname(__file__), "process.env")
 load_dotenv(dotenv_path)
 
 openai=os.getenv("OPENAI_API_KEY")
